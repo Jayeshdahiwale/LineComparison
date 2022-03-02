@@ -25,8 +25,11 @@ public class Application {
 		if(distance1==distance2) {
 			System.out.println("Two lines are equal");
 		}
+		else if(distance1>distance2) {
+			System.out.println("first  line is greater than second line");
+		}
 		else {
-			System.out.println("Two lines are unequal");
+			System.out.println("first  line is lesser than second line");
 		}
 
 	}
